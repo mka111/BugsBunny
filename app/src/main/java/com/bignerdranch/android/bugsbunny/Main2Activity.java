@@ -75,8 +75,8 @@ public class Main2Activity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.new_trip) {
-            //Intent i = new Intent(getApplicationContext(), Main3Activity.class);
-            //startActivity(i);
+            Intent i = new Intent(getApplicationContext(), Main3Activity.class);
+            startActivity(i);
         } else if (id == R.id.profile) {
 
         } else if (id == R.id.Groups) {
