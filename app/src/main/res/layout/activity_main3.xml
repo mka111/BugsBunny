@@ -23,4 +23,6 @@
             android:text="Upload Image"/>
     </RelativeLayout>
 
+    <include layout="@layout/content_main2" />
+
 </android.support.constraint.ConstraintLayout>

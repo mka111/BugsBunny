@@ -107,7 +107,7 @@ public class Main2Activity extends AppCompatActivity
 
         } else if (id == R.id.Groups) {
 
-        } else if (id == R.id.chats) {
+        } else if (id == R.id.activities) {
 
         }
 

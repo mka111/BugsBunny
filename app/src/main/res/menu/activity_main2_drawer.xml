@@ -7,16 +7,16 @@
         <item
             android:id="@+id/new_trip"
             android:icon="@drawable/ic_menu_camera"
-            android:title="NEW TRIP"
+            android:title="NEW ACTIVITY"
             android:onClick="onNavigationItemSelected"/>
         <item
             android:id="@+id/Groups"
             android:icon="@drawable/ic_menu_gallery"
             android:title="GROUPS" />
         <item
-            android:id="@+id/chats"
+            android:id="@+id/activities"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="CHATS" />
+            android:title="ACTIVITIES" />
         <item
             android:id="@+id/profile"
             android:icon="@drawable/ic_menu_manage"

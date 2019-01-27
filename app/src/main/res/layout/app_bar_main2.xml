@@ -91,7 +91,7 @@
             android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Menu"
             android:textIsSelectable="false"
             android:textStyle="bold"
-            app:autoSizeMinTextSize="20dp" />
+            android:textSize="20dp"/> />
 
         <TextView
             android:id="@+id/activityTXT"
