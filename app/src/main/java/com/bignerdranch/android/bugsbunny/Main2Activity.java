@@ -1,6 +1,7 @@
 package com.bignerdranch.android.bugsbunny;
 
 import android.content.Intent;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -13,14 +14,18 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 public class Main2Activity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+        TextView title = (TextView) findViewById(R.id.titleTXT);
+        title.setText("Random");
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -60,7 +65,28 @@ public class Main2Activity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_adventure) {
-
+            TextView i = (TextView)findViewById(R.id.titleTXT);
+            i.setText("Climbing");
+            return true;
+        } else if (id == R.id.action_Aquatic) {
+            TextView i = (TextView)findViewById(R.id.titleTXT);
+            i.setText("Aquatic");
+            return true;
+        }else if (id == R.id.action_Beach) {
+            TextView i = (TextView)findViewById(R.id.titleTXT);
+            i.setText("Beach Life");
+            return true;
+        }else if (id == R.id.action_Extreme) {
+            TextView i = (TextView)findViewById(R.id.titleTXT);
+            i.setText("Extreme Sports");
+            return true;
+        }else if (id == R.id.action_Nature) {
+            TextView i = (TextView)findViewById(R.id.titleTXT);
+            i.setText("Nature");
+            return true;
+        }else if (id == R.id.action_Night) {
+            TextView i = (TextView)findViewById(R.id.titleTXT);
+            i.setText("Night Life");
             return true;
         }
 
@@ -75,8 +101,8 @@ public class Main2Activity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.new_trip) {
-            //Intent i = new Intent(getApplicationContext(), Main3Activity.class);
-            //startActivity(i);
+            Intent i = new Intent(getApplicationContext(), Main3Activity.class);
+            startActivity(i);
         } else if (id == R.id.profile) {
 
         } else if (id == R.id.Groups) {
