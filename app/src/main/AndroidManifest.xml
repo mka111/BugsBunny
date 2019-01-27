@@ -10,11 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-
-        <activity
-            android:name=".AdventureOptions"
-            android:label="@string/title_activity_adventure_options"
-            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Main3Activity"
             android:label="@string/title_activity_main3"

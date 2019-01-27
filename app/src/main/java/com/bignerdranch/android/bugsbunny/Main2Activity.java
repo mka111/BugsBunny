@@ -60,8 +60,7 @@ public class Main2Activity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_adventure) {
-            Intent i = new Intent(getApplicationContext(), AdventureOptions.class);
-            startActivity(i);
+
             return true;
         }
 
