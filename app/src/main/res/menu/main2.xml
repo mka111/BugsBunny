@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
+    <group >
+        <item
+            android:id="@+id/action_adventure"
+            android:onClick="onOptionsItemSelected"
+            android:orderInCategory="100"
+            android:title="Climbing"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_Nature"
+            android:onClick="onOptionsItemSelected"
+            android:title="Nature" />
+        <item
+            android:id="@+id/action_Aquatic"
+            android:onClick="onOptionsItemSelected"
+            android:title="Aquatic" />
+        <item
+            android:id="@+id/action_Night"
+            android:onClick="onOptionsItemSelected"
+            android:title="Night Life" />
+        <item
+            android:id="@+id/action_Beach"
+            android:onClick="onOptionsItemSelected"
+            android:title="Beach Life " />
+        <item
+            android:id="@+id/action_Extreme"
+            android:onClick="onOptionsItemSelected"
+            android:title="Extreme Sports" />
+    </group>
 </menu>

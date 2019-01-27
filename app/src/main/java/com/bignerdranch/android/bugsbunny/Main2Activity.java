@@ -1,5 +1,6 @@
 package com.bignerdranch.android.bugsbunny;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -58,7 +59,9 @@ public class Main2Activity extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_adventure) {
+            Intent i = new Intent(getApplicationContext(), AdventureOptions.class);
+            startActivity(i);
             return true;
         }
 
@@ -73,7 +76,8 @@ public class Main2Activity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.new_trip) {
-            // Handle the camera action
+            //Intent i = new Intent(getApplicationContext(), Main3Activity.class);
+            //startActivity(i);
         } else if (id == R.id.profile) {
 
         } else if (id == R.id.Groups) {

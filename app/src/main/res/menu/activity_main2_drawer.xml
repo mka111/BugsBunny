@@ -7,7 +7,8 @@
         <item
             android:id="@+id/new_trip"
             android:icon="@drawable/ic_menu_camera"
-            android:title="NEW TRIP" />
+            android:title="NEW TRIP"
+            android:onClick="onNavigationItemSelected"/>
         <item
             android:id="@+id/Groups"
             android:icon="@drawable/ic_menu_gallery"
@@ -20,6 +21,10 @@
             android:id="@+id/profile"
             android:icon="@drawable/ic_menu_manage"
             android:title="PROFILE" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
     </group>
 
 
