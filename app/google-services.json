@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1033488878522",
+    "firebase_url": "https://bugsbunny-68eed.firebaseio.com",
+    "project_id": "bugsbunny-68eed",
+    "storage_bucket": "bugsbunny-68eed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033488878522:android:695df816002b83c1",
+        "android_client_info": {
+          "package_name": "com.bignerdranch.android.bugsbunny"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033488878522-jhpp6h3n8d94dqj4bkaaqfgrdhn26d9j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bignerdranch.android.bugsbunny",
+            "certificate_hash": "1f6ce5d08c04d41913951175f8ee5f98117ad0c8"
+          }
+        },
+        {
+          "client_id": "1033488878522-tgebam33updfsa3fe1cgl013altbmrq7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzCxHyOo6AknfKn_BK9bB7DKc0RTejgfY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033488878522-j2jtvipk3dhb7m5po1o8bpmmu58q0ull.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
