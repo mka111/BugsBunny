@@ -9,6 +9,7 @@
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
         android:theme="@style/AppTheme.AppBarOverlay">
 
         <android.support.v7.widget.Toolbar
@@ -22,12 +23,92 @@
 
     <include layout="@layout/content_main2" />
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+    <RelativeLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="395dp"
+        android:layout_height="461dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ImageView"
+            android:layout_width="400dp"
+            android:layout_height="600dp"
+            android:scaleType="centerCrop"
+            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/ImageView"
+            android:layout_alignTop="@id/ImageView"
+            android:layout_alignRight="@id/ImageView"
+            android:layout_alignBottom="@id/ImageView"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:gravity="bottom|center"
+            android:text="LOCATION"
+            app:autoSizeMinTextSize="10dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="408dp"
+        android:layout_height="192dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="131dp"
+            android:layout_height="65dp"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="41dp"
+            android:layout_marginEnd="227dp"
+            android:layout_marginBottom="86dp"
+            android:layout_weight="1"
+            android:text="YES" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="132dp"
+            android:layout_height="65dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="215dp"
+            android:layout_marginTop="43dp"
+            android:layout_marginEnd="61dp"
+            android:layout_marginBottom="84dp"
+            android:layout_weight="1"
+            android:text="NO" />
+    </RelativeLayout>
+
+
 
 </android.support.design.widget.CoordinatorLayout>
