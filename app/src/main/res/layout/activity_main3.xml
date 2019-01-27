@@ -42,4 +42,6 @@
 
     </RelativeLayout>
 
+    <include layout="@layout/content_main2" />
+
 </android.support.constraint.ConstraintLayout>
